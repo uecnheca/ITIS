@@ -3,21 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.example</groupId>
+        <artifactId>ITIS</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>org.example</groupId>
-    <artifactId>ITIS</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>lab16</module>
-        <module>lab17</module>
-        <module>lab18</module>
-        <module>lab19</module>
-        <module>spiski</module>
-        <module>Matrix</module>
-        <module>Regexp</module>
-        <module>Regexpp</module>
-    </modules>
+    <artifactId>Regexpp</artifactId>
 
     <properties>
         <maven.compiler.source>23</maven.compiler.source>

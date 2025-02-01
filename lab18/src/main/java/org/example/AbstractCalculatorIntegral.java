@@ -1,14 +1,12 @@
 package org.example;
 
-public abstract class CalculatorIntegral {
-    /*
+public abstract class AbstractCalculatorIntegral {
 
-     */
-    private double a;
-    private double b;
-    private Function function;
+    protected double a;
+    protected double b;
+    protected Function function;
 
-    public CalculatorIntegral(double a, double b, Function function) {
+    public AbstractCalculatorIntegral(double a, double b, Function function) {
         this.a = a;
         this.b = b;
         this.function = function;
